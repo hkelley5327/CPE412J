@@ -1,0 +1,10 @@
+Hello World, from PThread Hello World, from PThread Hello World, from PThread 021
+
+
+Hello World, from PThread 3Hello World, from PThread 4Hello World, from PThread 
+5
+Hello World, from PThread Hello World, from PThread 6
+Number of threads = 
+8
+Program compiled using GNU compiler
+7

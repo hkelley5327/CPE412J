@@ -1,0 +1,10 @@
+Hello World from thread = Hello World from thread = Hello World from thread = Hello World from thread = Hello World from thread = Hello World from thread = Hello World from thread = 36Hello World from thread = 057
+
+41
+
+
+
+2
+
+Number of Threads = 8
+Program compiled using GNU compiler

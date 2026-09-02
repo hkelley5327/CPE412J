@@ -1,0 +1,24 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: hello_world_PTH.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The target directory is: /home/uahclsf0075/Homework1
+  The working directory is:  /scratch-local/uahclsf0075.hw1question3run3.79498.asax-pbs1
+  The memory limit is: 8gb
+  The job will start running after: 202609011914.45
+  Job Name: hw1question3run3
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Using  8  cores on master node  asax020.asc.edu
+  Node list:  asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu
+  Cores:  8
+  Command typed:
+/scripts/run_script_omp hello_world_PTH.sh     
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N hw1question3run3 -a 202609011914.45 -r n -M hgk0004@uah.edu -l walltime=12:00:00 -l select=ncpus=8:mpiprocs=8:mem=8000mb 
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded: gcc-runtime/13.2.0-7qblajy (required by: gmp/6.3.0-elitxmf, mpfr/4.2.1-jqdrpsg, mpc/1.3.1-mwqlmlz, gcc/14.2.0-suvccnx), glibc/2.28-45t6mcv (required by: gmp/6.3.0-elitxmf, mpfr/4.2.1-jqdrpsg, mpc/1.3.1-mwqlmlz, gcc/14.2.0-suvccnx)
+-------------------------------------------------------------------------------
