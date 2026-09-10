@@ -1,0 +1,21 @@
+setting asax scratch directory
+ 
+============================================================
+=====         Summary of your script job               =====
+============================================================
+  The script file is: heat_1d_PTH3.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The target directory is: /home/uahclsf0075/Homework2/1D_heat_transfer/heat_1d_PTH3_files
+  The working directory is:  /scratch-local/uahclsf0075.question3_run1.83081.asax-pbs1
+  The memory limit is: 4gb
+  The job will start running after: 202609091033.45
+  Job Name: question3_run1
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Using  4  cores on master node  asax020.asc.edu
+  Node list:  asax020.asc.edu asax020.asc.edu asax020.asc.edu asax020.asc.edu
+  Cores:  4
+  Command typed:
+/scripts/run_script heat_1d_PTH3.sh     
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N question3_run1 -a 202609091033.45 -r n -M hgk0004@uah.edu -l walltime=12:00:00 -l select=ncpus=4:mpiprocs=4:mem=4000mb 
