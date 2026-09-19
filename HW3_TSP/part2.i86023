@@ -1,0 +1,18 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: tsp_PTH1.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The target directory is: /home/uahclsf0075/Homework3/tsp_example
+  The memory limit is: 13gb
+  The job will start running after: 202609181301.21
+  Job Name: part2
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Command typed:
+/scripts/run_script tsp_PTH1.sh     
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N part2 -a 202609181301.21 -r n -M hgk0004@uah.edu -l walltime=12:00:00 -l select=ncpus=13:mpiprocs=13:mem=13000mb 
+  Job number: 86023
+ 

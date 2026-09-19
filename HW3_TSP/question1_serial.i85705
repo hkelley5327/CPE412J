@@ -1,0 +1,18 @@
+ 
+============================================================
+=====     Queued job information at submit time        =====
+============================================================
+  The submitted file is: tsp_serial.sh
+  The time limit is 12:00:00 HH:MM:SS.
+  The target directory is: /home/uahclsf0075/Homework3/tsp_example
+  The memory limit is: 1gb
+  The job will start running after: 202609171308.27
+  Job Name: question1_serial
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Command typed:
+/scripts/run_script tsp_serial.sh     
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N question1_serial -a 202609171308.27 -r n -M hgk0004@uah.edu -l walltime=12:00:00 -l select=ncpus=1:mem=1000mb 
+  Job number: 85705
+ 
