@@ -1,0 +1,44 @@
+This runs a script in the current directory via the queue system
+This script lets the job use multiple processors on the same node.
+Report problems and post questions to the HPC staff (hpc@asc.edu)
+ 
+ 
+Choose a batch job queue:
+ 
+Queue                     Wall Time      Mem  # Cores
+------------------------ ---------- -------- --------
+express                     4:00:00     16gb      1-4
+small                      60:00:00      4gb      1-8
+medium                    150:00:00     16gb     1-16
+large                     360:00:00    120gb    1-128
+bigmem                    360:00:00  130-500gb   1-32
+benchmark                  24:00:00    490gb    1-128
+class                      12:00:00     64gb     1-60
+ 
+Your job will have a shorter wait time if your memory request is
+reasonable (about 20% more than needed), and your time request is
+reasonable (about 50% more than needed).
+Find this out by running 'jobinfo -j JOB_NUMBER' for a correctly
+completed job.
+ 
+ 
+ 
+ 
+
+Enter a name for your job (default: heat2dOMP2asaxshSC)
+Run on;  icelake, milan, genoa (default: asax)
+ 
+============================================================
+=====         Summary of your script     job           =====
+============================================================
+  The script file is: heat_2d_OMP_2_asax.sh
+  The time limit is 01:00:00 HH:MM:SS.
+  The memory limit is: 32gb
+  The job will start running after: 202610122002.44
+  Job Name: heat2dOMP2asaxshSC
+  Queue: -q class -W group_list=classq
+  Constraints: 
+  Queue submit command:
+qsub -q class -W group_list=classq -j oe -N heat2dOMP2asaxshSC -a 202610122002.44 -r n -M hgk0004@uah.edu -l walltime=01:00:00 -l select=ncpus=2:mpiprocs=2:mem=32000mb 
+
+100070.asax-pbs1
