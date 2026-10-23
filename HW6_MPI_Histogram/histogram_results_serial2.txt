@@ -1,0 +1,108 @@
+===== Running with 1 MPI process(es) =====
+numbers matrix =
+48.1615
+57.7584
+42.0876
+50.5218
+75.8859
+55.6291
+34.7784
+25.8196
+53.4319
+12.6648
+27.9336
+49.3952
+22.3363
+69.2959
+48.6084
+74.4085
+36.2522
+
+Histogram Information
+12.5  2
+37.5  8
+62.5  6
+87.5  1
+1 MPI Process OpenMPI Implementation
+
+===== Running with 2 MPI process(es) =====
+numbers matrix =
+48.1615
+57.7584
+42.0876
+50.5218
+75.8859
+55.6291
+34.7784
+25.8196
+53.4319
+12.6648
+27.9336
+49.3952
+22.3363
+69.2959
+48.6084
+74.4085
+36.2522
+
+Histogram Information
+12.5  2
+37.5  7
+62.5  6
+87.5  1
+2 MPI Process OpenMPI Implementation
+
+===== Running with 4 MPI process(es) =====
+numbers matrix =
+48.1615
+57.7584
+42.0876
+50.5218
+75.8859
+55.6291
+34.7784
+25.8196
+53.4319
+12.6648
+27.9336
+49.3952
+22.3363
+69.2959
+48.6084
+74.4085
+36.2522
+
+Histogram Information
+12.5  2
+37.5  7
+62.5  6
+87.5  1
+4 MPI Process OpenMPI Implementation
+
+===== Running with 5 MPI process(es) =====
+numbers matrix =
+48.1615
+57.7584
+42.0876
+50.5218
+75.8859
+55.6291
+34.7784
+25.8196
+53.4319
+12.6648
+27.9336
+49.3952
+22.3363
+69.2959
+48.6084
+74.4085
+36.2522
+
+Histogram Information
+12.5  2
+37.5  7
+62.5  5
+87.5  1
+5 MPI Process OpenMPI Implementation
+
